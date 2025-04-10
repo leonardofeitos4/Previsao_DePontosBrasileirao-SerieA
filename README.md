@@ -27,6 +27,16 @@ A relação entre desempenho esportivo e valor financeiro no futebol é tema con
 
 ---
 
-## 🔍 Estrutura do Repositório
+## Resultados
+Correlação entre Valor de Mercado Total e Pontos: 0.5829
+
+R² do modelo: 0.3398
+
+![image](https://github.com/user-attachments/assets/725d35ee-d059-4d1f-80eb-68b29a80ee82)
+
+
+![image](https://github.com/user-attachments/assets/27d86ba2-f032-4423-a33b-f8e90179a2fc)
+
+![image](https://github.com/user-attachments/assets/b76342ee-2ec0-47c9-a7ba-6ecfb475c9f4)
 
 
