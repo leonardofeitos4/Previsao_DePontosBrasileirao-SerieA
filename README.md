@@ -1,42 +1,30 @@
-# 🏆 Previsão de Pontuação da Série A com Machine Learning
+# 📊 Previsão de Rebaixamento - Campeonato Brasileiro Série A 2025
 
-Este projeto tem como objetivo prever a pontuação final dos clubes da Série A do Campeonato Brasileiro com base no valor de mercado dos elencos, utilizando técnicas de regressão supervisionada.
-
-## 📌 Sobre o Projeto
-
-A relação entre desempenho esportivo e valor financeiro no futebol é tema constante de estudo. Usando dados extraídos do Transfermarkt entre 2020 e 2024, este projeto aplica modelos de aprendizado supervisionado para prever quantos pontos um clube pode alcançar ao fim do campeonato com base em variáveis como:
-
-- Valor de mercado total do elenco
-- Número de jogadores
-- Idade média dos atletas
-- Proporção de estrangeiros
-- Valor médio por jogador
+Este projeto tem como objetivo aplicar técnicas de aprendizado supervisionado para prever **quais clubes da Série A do Brasileirão correm risco de rebaixamento em 2025**, utilizando como principal variável explicativa o **valor de mercado total dos clubes**.
 
 ---
 
-## 📊 Tecnologias e Ferramentas
+## 📌 Objetivos
 
-- **Python**
-  - Pandas
-  - NumPy
-  - Scikit-learn
-  - Matplotlib / Seaborn
-- **Jupyter Notebook**
-- **Excel** (organização dos dados)
-- **Transfermarkt** (fonte dos dados via web scraping)
+- Aplicar modelos de classificação supervisionada para prever rebaixamento.
+- Utilizar o valor de mercado dos elencos como variável explicativa principal.
+- Avaliar a performance dos modelos com métricas específicas de classificação.
 
 ---
 
-## Resultados
-Correlação entre Valor de Mercado Total e Pontos: 0.5829
+## 🧠 Técnicas Utilizadas
 
-R² do modelo: 0.3398
+Foram testados os seguintes algoritmos:
 
-![image](https://github.com/user-attachments/assets/725d35ee-d059-4d1f-80eb-68b29a80ee82)
+- **Regressão Logística (Logit)** - Modelo final escolhido.
+- **Random Forest**
+- **K-Nearest Neighbors (KNN)**
 
+### 🔍 Métricas de Avaliação
 
-![image](https://github.com/user-attachments/assets/27d86ba2-f032-4423-a33b-f8e90179a2fc)
+- Acurácia
+- MAE (Erro Médio Absoluto)
+- RMSE (Raiz do Erro Quadrático Médio)
 
-![image](https://github.com/user-attachments/assets/b76342ee-2ec0-47c9-a7ba-6ecfb475c9f4)
-
+---
 
