@@ -4,6 +4,14 @@ Este projeto tem como objetivo aplicar técnicas de aprendizado supervisionado p
 
 ---
 
+## 🌐 Site Utilizado
+
+Os dados dos clubes foram extraídos do site:
+
+🔗 [Transfermarkt - Campeonato Brasileiro Série A](https://www.transfermarkt.com.br/)
+
+---
+
 ## 📌 Objetivos
 
 - Aplicar modelos de classificação supervisionada para prever rebaixamento.
@@ -27,4 +35,6 @@ Foram testados os seguintes algoritmos:
 - RMSE (Raiz do Erro Quadrático Médio)
 
 ---
+
+
 
